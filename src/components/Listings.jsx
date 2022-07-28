@@ -1,7 +1,12 @@
 import React from "react";
 
-const Listings = () => {
-  return <div>Listings</div>;
+const Listings = ({ children }) => {
+  return (
+    <div>
+      Listings
+      {children}
+    </div>
+  );
 };
 
 export default Listings;
