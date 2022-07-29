@@ -6,7 +6,7 @@ import Categories from "./../components/Categories";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <header>
         <Navbar />
         <Categories />
